@@ -1,0 +1,26 @@
+#weeks-grid {
+  display: grid;
+  grid-template-columns: repeat(52, 1fr);
+  gap: 5px;
+  margin: 0 auto;
+  transition: width 0.3s ease;
+}
+
+.week {
+  aspect-ratio: 1 / 1;
+  width: 100%;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
+.past-week {
+  background-color: black;
+}
+
+.future-week {
+  background-color: white;
+}
+
+input {
+  margin: 0.5em;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<!-- make sure to use utf 8 -->
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Momento Mori</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/luxon/3.5.0/luxon.min.js"
+    integrity="sha512-SN7iwxiJt9nFKiLayg3NjLItXPwRfBr4SQSIugMeBFrD4lIFJe1Z/exkTZYAg3Ul+AfZEGws2PQ+xSoaWfxRQQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
+  <script src="momento-mori.js" defer></script>
+</head>
+
+<body>
+  <div id="control">
+    <div id="phases"></div>
+    <input type="button" id="start" value="Add Phase" onclick="add_phase()">
+  </div>
+  <div id="weeks">
+    <div id="weeks-grid"></div>
+  </div>
+</body>
+
+</html>
